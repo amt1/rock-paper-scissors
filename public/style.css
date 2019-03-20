@@ -1,0 +1,109 @@
+body {
+  background-color: lightyellow;
+    z-index: 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h1, h2, strong {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: normal;
+  text-align: center;
+  margin-top 0;
+  padding-top: 0;
+  font-weight: normal;
+}
+h2 {
+  font-size: 3em;
+}
+strong {
+  font-size: 2em;
+}
+form#rpsform {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.gamebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  min-width: 300px;
+}
+
+form#rpsform fieldset {
+  margin-top: 2em;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form#rpsform select {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2em;
+  width: 80%;
+}
+
+legend {
+  font-size: 4em;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.player1_button, #rpsform input {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  background-color: #191970;
+  color: yellow;
+  text-decoration: none;
+  font-size: 3em;
+  padding: 10px;
+  margin: 10px;
+  border: 5px red ridge;
+  border-radius: 10px;
+}
+.player1_button a:link, .player1_button a:visited,
+.player1_button a:hover, .player1_button a:active {
+  color: yellow;
+  text-decoration: none;
+}
+
+#player2 {
+  margin-top: 4em;
+  margin-bottom: 1000px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.results table {
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+}
+table.results td {
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+footer {
+  font-size: small;
+  font-style: italic;
+}

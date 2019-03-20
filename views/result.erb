@@ -1,0 +1,22 @@
+<div  class = "results">
+<table>
+<tr><th colspan = "2">
+<h1>Results:</h1></th></tr>
+<tr><td>
+<strong>Player 1 chose <%= @p1_choice  %> </strong>
+</td><td>
+<strong>Player 2 chose <%= @p2_choice  %> </strong>
+</td></tr>
+<tr><td colspan = "2">
+<h2>Who Won?</h2>
+</td></tr>
+<tr><td colspan = "2">
+<h2><em><%= @result_string %>!!!!</em></h2>
+</td></tr>
+<tr><td colspan = "2">
+<form id="rpsform" action="/">
+  <input type="submit" value="Play Again?">
+  </form>
+  </td></tr>
+</table>
+</div>

@@ -1,0 +1,26 @@
+<h1>It's Rock, Paper, Scissors Time!!</h1>
+
+<form id="rpsform" action="/rps">
+<fieldset class = "gamebox">
+<legend>Player 1: </legend>
+<center>
+<select name="player1" size="3">
+  <option value=0>Rock</option>
+  <option value=1>Paper</option>
+  <option value=2>Scissors</option>
+</select>
+<span class="player1_button"><a href="#player2">Ready for Player 2? Click Here!</a></span>
+</center>
+</fieldset>
+<fieldset class="gamebox" id="player2">
+<legend>Player 2: </legend>
+<center>
+<select name="player2" size="3">
+  <option value=0>Rock</option>
+  <option value=1>Paper</option>
+  <option value=2>Scissors</option>
+</select>
+<input type="submit" value="Ready, Go!">
+</center>
+</fieldset>
+</form>
